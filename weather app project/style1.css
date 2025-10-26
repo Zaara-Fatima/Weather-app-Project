@@ -1,0 +1,70 @@
+  body { 
+        display: flex;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgb(11, 19, 30);
+        gap:20px;
+        height:100vh;
+    }
+    *{
+        color: #dde0e4ff;;
+    }
+    #menu-section {
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        margin: 10px;
+        width: 8%;
+        background-color: rgb(32, 43, 59);
+        padding: 15px;
+        justify-content: left;
+        align-items:center;
+        gap:0px;
+        
+    }
+    #content-section {
+        display: flex;
+        gap:20px;
+        flex-direction: column;
+        
+        justify-content:center;
+        width: 80%;
+        padding: 10px;
+    }
+    
+    #search-bar input {
+        width: 96%;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        background-color: rgb(32, 43, 59);
+        color: #dde0e4ff;
+        border: none;
+        padding: 10px 20px;
+
+    }
+    section {
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: rgb(32, 43, 59);
+    }
+    input::placeholder {
+    color: gray; /* Change to your preferred color */
+    padding-left: 10px; /* Doesn't work, so use text-indent instead */
+    font-weight: bold;/* Optional: Makes text look slightly different */
+}
+.img1{
+    position:relative;
+    width: 150px;
+    padding: 0;
+    border: none;
+}
+/*.todays-forcast{
+    display: flex;
+    flex-direction: row;
+}*/
+
+
+

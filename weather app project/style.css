@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container {
+    width: 100%;
+   display: flex;
+   justify-content:space-between;
+   height: 100vh;
+   align-items: center;
+   box-sizing: border-box;
+ }
+body{
+    background-color: rgb(11, 19, 30);
+}
+.container1{
+    display: flex;
+    background-color: rgb(32, 43, 59);
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 800px;
+    margin-left: 50px;
+    margin: 100px;
+    border-radius: 20px; /* Rounds the corners */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); 
+    position: relative;
+}
+.img1 {
+    height: 400px;
+  }
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right:700px;
+}
+.text{
+  font-size: 2rem;
+  margin:10px;
+  color: white;
+}
+.img2{
+  margin: 0px;
+  padding: 0px;
+}
+h1.text{
+  font-size:5rem;
+}
+
+.get-started {
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: teal;
+  border: none;
+  border-radius: 25px; /* Rounded borders */
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.get-started:hover {
+  background-color: #006d6d; /* Slightly darker teal */
+}
+
+.get-started:active {
+  transform: scale(1.1); /* Expand animation on click */
+}

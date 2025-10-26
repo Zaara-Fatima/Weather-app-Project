@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style1.css" rel="stylesheet">
+    <title>Weather App Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- Menu Section -->
+    <div id="menu-section">
+        <div id="logo">
+        <img class="img1" src="images/white-cloud-icon-png-13.jpg" alt="umberellaImg">
+        </div>
+        <div>
+            <p>Home</p>
+            <p>Forecasts</p>
+            <p>Air Conditions</p>
+            <p>Settings</p>
+        </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <div id="content-section">
+        <!-- Search Bar -->
+        <div id="search-bar">
+            <input type="text" id="search" placeholder="Search Your City" onkeydown="searchForLocation(event)" value="Kanpur">
+        </div>
+        
+
+        <!-- Today's Forecast Section -->
+    <div class="forecast">
+        <section id="todays-forecast" class="flex items-center justify-between">
+            <div>
+            <h2 class="nameCity text-4xl font-extrabold">Kanpur</h2>
+            <p class="condCity text-lg mt-0">chance of rain: 0%</p>
+            <p class="tempCity text-5xl font-extrabold mt-10">31° </p>
+            </div>
+            <div>
+                <img id="weather-icon" alt="Weather Icon" width="100px" class="mr-4">
+            </div>
+        </section>
+     </div>
+
+        <!-- Air Conditions Section -->
+        <section id="air-conditions" class="flex items-center justify-between">
+            <p class="text-xl font-extrabold text-center ">Air Conditions</p>
+            <div>
+            <p class="text-lg font-bold">Real Feel</p>
+            <p class="feelsLike">30°</p>
+            </div>
+            <div>
+            <p class="text-lg font-bold">Chances of Rain</p>
+            <p>0%</p>
+            </div>
+            <div>
+            <p class="text-lg font-bold">Wind</p>
+            <p class="windSpeed">0.2km/h</p>
+            </div>
+            <div>
+            <p class="text-lg font-bold">UV Index</p>
+            <p class="UV">3</p>
+            </div>
+        </section>
+
+    </div>
+    =<script src="script1.js"></script>
+</body>
+</html>
